@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestoría de Planos y Construcciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Gestoría Construcciones</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Expertos en Planos y Construcción</h2>
+            <p>Te ayudamos a transformar tus ideas en realidad, desde planos hasta la construcción.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio">
+                    <h3>Diseño de Planos</h3>
+                    <p>Elaboramos planos arquitectónicos y estructurales ajustados a tus necesidades.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Gestión de Construcción</h3>
+                    <p>Supervisamos y gestionamos proyectos para garantizar calidad y eficiencia.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Consultoría</h3>
+                    <p>Ofrecemos asesoramiento técnico para optimizar tus proyectos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una gestoría con más de 10 años de experiencia en el diseño y construcción de proyectos residenciales y comerciales.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Recientes</h2>
+            <div class="proyectos-container">
+                <img src="images/proyecto1.jpg" alt="Proyecto 1">
+                <img src="images/proyecto2.jpg" alt="Proyecto 2">
+                <img src="images/proyecto3.jpg" alt="Proyecto 3">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/your-email" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gestoría Construcciones. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

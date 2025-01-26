@@ -1,0 +1,97 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #2a9d8f;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.btn {
+    background: #e76f51;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #f4a261;
+}
+
+#servicios, #nosotros, #proyectos, #contacto {
+    padding: 2rem 1rem;
+}
+
+.servicios-container, .proyectos-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.servicio, .proyectos-container img {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #2a9d8f;
+    color: #fff;
+    font-size: 1rem;
+}
